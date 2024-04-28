@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tab">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/f"
+        android:id="@+id/imageView" />
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/btn6"
+        android:layout_width="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        fancy:fb_defaultColor="#e60c7c"
+        fancy:fb_focusColor="#5703cb"
+        fancy:fb_fontIconResource="@string/btn"
+        fancy:fb_radius="20dp"
+        fancy:fb_text=" YES"
+        fancy:fb_textColor="#FFFFFF"
+        android:layout_marginBottom="60dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read my mind ♥"
+        android:layout_above="@+id/btn6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp"
+        android:textColorHighlight="#fff"/>
+
+</RelativeLayout>

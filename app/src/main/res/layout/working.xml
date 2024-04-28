@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The first number on each card is a power of 2. Every natural numbr upto 63 is a sum of some of these numbers. The rest of the numbers on card are chosen precisely to make this work.Choose a number and just add the first element of every card if your number is in the card !! "
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#000"/>
+
+    <ImageView
+        android:layout_width="222dp"
+        android:layout_height="285dp"
+        android:src="@drawable/know"
+        android:layout_marginLeft="80dp"
+        />
+
+</LinearLayout>
